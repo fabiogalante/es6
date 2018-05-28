@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01 - Escopo o JS</title>
+</head>
+<body>
+
+<script>
+
+    let soudd = 'meow';
+    const name = 'jake';
+
+    //var é global, exceto dentro de funções
+    var animal;
+
+    function sayAnimal() {
+         animal = 'cat';
+        console.log(animal);
+    }
+
+
+    sayAnimal();
+    console.log(animal);
+
+
+</script>
+
+</body>
+</html>
